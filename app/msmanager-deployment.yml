@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: msmanager
-          image: robertpolanski/msmanager:v1
+          image: robertpolanski/msmanager:0.1
           ports:
             - containerPort: 8080
           env:

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: calculator
-          image: robertpolanski/calculator:v1
+          image: robertpolanski/calculator:0.1
           ports:
             - containerPort: 8081
