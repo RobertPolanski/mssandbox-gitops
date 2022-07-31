@@ -7,7 +7,7 @@ flux bootstrap github \
 
 flux create source git mssandbox \
   --url=https://github.com/RobertPolanski/mssandbox-gitops \
-  --branch=master \
+  --branch=main \
   --interval=30s \
   --export > ./root/mssandbox-source.yaml
 
