@@ -10,6 +10,6 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: mssandbox-gitops
+    name: mssandbox
   targetNamespace: mssandbox
 

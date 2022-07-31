@@ -13,7 +13,7 @@ flux create source git mssandbox \
 
 flux create kustomization mssandbox \
   --target-namespace=mssandbox \
-  --source=mssandbox-gitops \
+  --source=mssandbox \
   --path="./app" \
   --prune=true \
   --interval=1m \
