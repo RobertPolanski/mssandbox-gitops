@@ -15,7 +15,7 @@ spec:
   interval: 30s
   values:
     msmanager:
-      replicas: 3
+      replicas: 2
     calculator:
-      replicas: 3
+      replicas: 2
       url: "http://calculator:8081"
