@@ -2,10 +2,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: msmanager
+  namespace: app
   labels:
     app: msmanager
 spec:
-  replicas: 3
+  replicas: {{ .Values.msmanager.replicas }}
   selector:
     matchLabels:
       app: msmanager
@@ -17,8 +18,9 @@ spec:
       containers:
         - name: msmanager
           image: robertpolanski/msmanager:0.1
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
             - name: CALCULATOR_URL
-              value: "http://calculator:8081"
+              value: {{ .Values.calculator.url }}

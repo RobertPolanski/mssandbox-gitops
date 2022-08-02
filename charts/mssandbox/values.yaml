@@ -1,0 +1,5 @@
+msmanager:
+  replicas: 3
+calculator:
+  replicas: 3
+  url: "http://calculator:8081"
