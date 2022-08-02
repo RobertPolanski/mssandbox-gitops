@@ -10,6 +10,6 @@ spec:
       chart: ./charts/mssandbox
       sourceRef:
         kind: GitRepository
-        name: flux-system
+        name: mssandbox
         namespace: flux-system
   interval: 30s
