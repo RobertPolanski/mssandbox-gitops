@@ -7,7 +7,7 @@ spec:
   releaseName: mssandbox
   chart:
     spec:
-      chart: ./charts/mssandbox
+      chart: ./charts/mssandboxx
       sourceRef:
         kind: GitRepository
         name: mssandbox
