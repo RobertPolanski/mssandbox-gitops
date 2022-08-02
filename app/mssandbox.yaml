@@ -12,7 +12,7 @@ spec:
         kind: GitRepository
         name: mssandbox
         namespace: flux-system
-  interval: 30s
+  interval: 1m
   values:
     msmanager:
       replicas: 2
