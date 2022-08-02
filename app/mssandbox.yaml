@@ -13,3 +13,9 @@ spec:
         name: mssandbox
         namespace: flux-system
   interval: 30s
+  values:
+    msmanager:
+      replicas: 2
+    calculator:
+      replicas: 2
+      url: "http://calculator:8081"
