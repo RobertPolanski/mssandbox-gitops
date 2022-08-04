@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: msmanager
-  namespace: mssandbox
+  namespace: {{ .Values.namespace }}
   labels:
     app: msmanager
 spec:

@@ -19,3 +19,4 @@ spec:
     calculator:
       replicas: 2
       url: "http://calculator:8081"
+    namespace: apps

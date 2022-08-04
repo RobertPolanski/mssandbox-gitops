@@ -10,6 +10,4 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: mssandbox
-  targetNamespace: mssandbox
-
+    name: flux-system
