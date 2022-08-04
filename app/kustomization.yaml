@@ -1,7 +1,6 @@
----
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - mssandbox-namespace.yaml
-  - monitoring-namespace.yaml
-  - mssandbox.yaml
+- mssandbox-namespace.yaml
+- monitoring-namespace.yaml
+- mssandbox.yaml
