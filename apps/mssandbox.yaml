@@ -15,8 +15,8 @@ spec:
   interval: 1m
   values:
     msmanager:
-      replicas: 2
+      replicas: 3
     calculator:
-      replicas: 2
+      replicas: 3
       url: "http://calculator:8081"
     namespace: apps
